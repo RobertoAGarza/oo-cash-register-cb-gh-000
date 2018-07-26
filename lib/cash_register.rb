@@ -1,7 +1,8 @@
 class CashRegister
   attr_accessor :total
 
-  def self.new
+  def initialize(total)
+    @total = total
     @total = 0
   end
 end

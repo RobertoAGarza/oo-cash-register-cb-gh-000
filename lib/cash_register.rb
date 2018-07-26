@@ -1,5 +1,6 @@
 class CashRegister
-  def self.new
+
+  def initialize
     @total = 0
-  end
+  end 
 end

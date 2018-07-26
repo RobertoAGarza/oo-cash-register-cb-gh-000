@@ -6,6 +6,7 @@ class CashRegister
   end
 
   def discount
+    @discount = 20
   end
 
 end

@@ -9,6 +9,6 @@ attr_accessor :discount
 
   def discount
     @discount
-
+  end 
 
 end
